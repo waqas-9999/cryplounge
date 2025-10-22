@@ -4,9 +4,11 @@ import Navbar from "../components/global/Navbar";
 const Main = props => {
 	return (
 		<>
-			<Navbar />
+		<Navbar />
+		<div className="py-12 px-6">
 			{props.children}
 			<Footer />
+		</div>
 		</>
 	);
 };
