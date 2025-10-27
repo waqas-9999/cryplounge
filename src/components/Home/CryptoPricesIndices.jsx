@@ -86,7 +86,7 @@ const CryptoPricesIndices = () => {
                 -1.25 (-1.61%)
               </div>
               {/* TradingView Chart */}
-              <div className="h-66 overflow-hidden mb-4">
+              <div className="h-52 overflow-hidden mb-4">
                 <TradingViewWidget/>
               </div>
               <div className="flex gap-1 justify-center">
@@ -124,7 +124,7 @@ const CryptoPricesIndices = () => {
             <div className="p-6 relative border-l border-[#2f2f2f] overflow-hidden">
               <div className="absolute inset-0"></div>
               <div className="relative z-10">
-                <div className="text-white font-bold text-lg mb-2">MEXC</div>
+                <div className="text-white font-bold text-lg mb-2">BUYCEX</div>
                 <div className="text-white text-2xl font-bold mb-4">
                   First Trade with<br />
                   <span className="text-blue-300">Loss Coverage</span>
