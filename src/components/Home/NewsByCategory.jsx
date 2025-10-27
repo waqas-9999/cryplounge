@@ -58,7 +58,7 @@ const NewsByCategory = () => {
   return (
     <section className="w-full py-16">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="text-center mb-12">
+        <div className="mb-12">
           <h2 className="page-title text-white mb-4">NEWS BY CATEGORY</h2>
           <p className="news-body-lg text-gray-400">Stay updated with the latest crypto news across different categories</p>
         </div>
@@ -186,10 +186,10 @@ const NewsByCategory = () => {
         </div>
 
         {/* View All Categories Link */}
-        <div className="text-center mt-12">
+        <div className="text-end mt-6">
           <Link
             to="/community"
-            className="news-link inline-block text-lg font-semibold hover:underline"
+            className="news-link inline-block text-base font-semibold hover:underline"
           >
             EXPLORE ALL NEWS CATEGORIES →
           </Link>

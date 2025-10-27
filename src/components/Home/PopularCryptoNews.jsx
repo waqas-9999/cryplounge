@@ -169,10 +169,10 @@ const PopularCryptoNews = () => {
         </div>
 
         {/* View All Link */}
-        <div className="text-center mt-12">
+        <div className="text-end mt-6">
           <Link
             to="/community"
-            className="news-link inline-block text-lg font-semibold hover:underline"
+            className="news-link inline-block text-base font-semibold hover:underline"
           >
             VIEW ALL POPULAR NEWS →
           </Link>

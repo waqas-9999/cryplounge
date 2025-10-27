@@ -29,7 +29,7 @@ const CryptoPricesIndices = () => {
       <div className="max-w-7xl mx-auto px-6">
         {/* PRICES Section */}
         <div className="mb-16">
-          <h2 className="page-title text-white text-center mb-8">PRICES</h2>
+          <h2 className="page-title text-white text-start mb-8">PRICES</h2>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 mb-6">
             {cryptoPrices.map((crypto, index) => (
               <div
