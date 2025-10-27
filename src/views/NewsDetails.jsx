@@ -9,14 +9,23 @@ const allNews = [
     date: "Oct 22, 2025, 9:12AM EDT",
     category: "Governance",
     content: `
-      The Aave DAO has proposed a comprehensive $50 million annual token buyback program 
-      that will be funded entirely by protocol revenue. This initiative aims to create 
-      value for AAVE token holders while maintaining the protocol's financial sustainability.
+      The Aave DAO has proposed a $50 million annual token buyback program,
+      fully funded by protocol revenue. The plan aims to strengthen the
+      AAVE token ecosystem and reward long-term holders.
       
-      The proposal includes detailed mechanisms for revenue allocation, buyback timing, 
-      and token distribution strategies. Community feedback has been overwhelmingly positive, 
-      with many seeing this as a significant step toward token value appreciation.
+      The proposal outlines how revenue will be allocated, buyback timing,
+      and strategies to sustain the treasury over time. Many community
+      members have praised the initiative as a progressive move toward
+      decentralization and value alignment.
     `,
+    author: {
+      name: "Emma Thompson",
+      role: "DeFi Analyst",
+      avatar: "https://randomuser.me/api/portraits/women/45.jpg",
+      twitter: "https://twitter.com/",
+      linkedin: "https://linkedin.com/",
+      email: "mailto:emma@cryptonews.com",
+    },
   },
   {
     id: 2,
@@ -25,46 +34,63 @@ const allNews = [
     date: "Oct 21, 2025, 4:57PM EDT",
     category: "Policy",
     content: `
-      Senator Elizabeth Warren has raised serious concerns about the proposed stablecoin 
-      legislation, calling for the Treasury Department to address potential conflicts of 
-      interest in the regulatory framework. Her statements highlight the ongoing tension 
-      between innovation and regulation in the crypto space.
+      Senator Elizabeth Warren criticized the proposed stablecoin bill,
+      calling for the Treasury Department to examine potential conflicts
+      of interest among key industry stakeholders.
       
-      The senator's concerns focus on ensuring that regulatory oversight doesn't favor 
-      certain market participants while maintaining consumer protection standards.
+      Warren emphasized consumer protection and transparency, highlighting
+      the risks of excessive influence from large crypto players in shaping
+      regulation. The debate underscores the challenge of balancing
+      innovation and oversight.
     `,
+    author: {
+      name: "Michael Chen",
+      role: "Policy Correspondent",
+      avatar: "https://randomuser.me/api/portraits/men/33.jpg",
+      twitter: "https://twitter.com/",
+      linkedin: "https://linkedin.com/",
+      email: "mailto:michael@cryptonews.com",
+    },
   },
   {
     id: 3,
     title:
-      "Sen. Warren slams stablecoin law and urges Treasury to address conflict of interest concerns",
-    date: "Oct 21, 2025, 4:57PM EDT",
+      "Sen. Warren slams stablecoin law and urges Treasury to address conflict of interest concerns (Part 2)",
+    date: "Oct 21, 2025, 5:10PM EDT",
     category: "Policy",
     content: `
-      Senator Elizabeth Warren has raised serious concerns about the proposed stablecoin 
-      legislation, calling for the Treasury Department to address potential conflicts of 
-      interest in the regulatory framework. Her statements highlight the ongoing tension 
-      between innovation and regulation in the crypto space.
-      
-      The senator's concerns focus on ensuring that regulatory oversight doesn't favor 
-      certain market participants while maintaining consumer protection standards.
+      This follow-up explores additional reactions to Senator Warren’s
+      critique of the stablecoin framework. Industry analysts argue
+      the comments could delay key legislative progress on crypto regulation.
     `,
+    author: {
+      name: "Michael Chen",
+      role: "Policy Correspondent",
+      avatar: "https://randomuser.me/api/portraits/men/33.jpg",
+      twitter: "https://twitter.com/",
+      linkedin: "https://linkedin.com/",
+      email: "mailto:michael@cryptonews.com",
+    },
   },
   {
     id: 4,
     title:
-      "Sen. Warren slams stablecoin law and urges Treasury to address conflict of interest concerns",
-    date: "Oct 21, 2025, 4:57PM EDT",
+      "Sen. Warren slams stablecoin law and urges Treasury to address conflict of interest concerns (Part 3)",
+    date: "Oct 21, 2025, 5:20PM EDT",
     category: "Policy",
     content: `
-      Senator Elizabeth Warren has raised serious concerns about the proposed stablecoin 
-      legislation, calling for the Treasury Department to address potential conflicts of 
-      interest in the regulatory framework. Her statements highlight the ongoing tension 
-      between innovation and regulation in the crypto space.
-      
-      The senator's concerns focus on ensuring that regulatory oversight doesn't favor 
-      certain market participants while maintaining consumer protection standards.
+      Further commentary continues to emerge regarding the stablecoin debate.
+      Some policymakers back Warren’s stance, while others warn against
+      overregulation that could stifle innovation.
     `,
+    author: {
+      name: "Michael Chen",
+      role: "Policy Correspondent",
+      avatar: "https://randomuser.me/api/portraits/men/33.jpg",
+      twitter: "https://twitter.com/",
+      linkedin: "https://linkedin.com/",
+      email: "mailto:michael@cryptonews.com",
+    },
   },
   {
     id: 5,
@@ -73,47 +99,56 @@ const allNews = [
     date: "Oct 22, 2025, 9:01AM EDT",
     category: "Sponsored",
     content: `
-      The upcoming Finternet 2025 Summit in Asia will focus on compliant digital asset 
-      growth as a core agenda item. This major conference brings together industry leaders, 
-      regulators, and innovators to discuss the future of digital finance in the region.
-      
-      Key topics include regulatory frameworks, institutional adoption, and the development 
-      of sustainable digital asset ecosystems that comply with evolving regulatory standards.
+      The Finternet 2025 Summit in Asia is set to focus on compliant digital
+      asset growth. Industry experts, regulators, and fintech leaders will
+      discuss frameworks for sustainable innovation and responsible adoption.
     `,
+    author: {
+      name: "Sophia Allen",
+      role: "Asia Correspondent",
+      avatar: "https://randomuser.me/api/portraits/women/52.jpg",
+      twitter: "https://twitter.com/",
+      linkedin: "https://linkedin.com/",
+      email: "mailto:sophia@cryptonews.com",
+    },
   },
   {
     id: 6,
-    title:
-      "Yellow: A Clearing Network Unifying Fragmented Blockchains",
+    title: "Yellow: A Clearing Network Unifying Fragmented Blockchains",
     date: "Oct 22, 2025",
     category: "Research",
     content: `
-      Yellow represents a groundbreaking clearing network designed to unify fragmented 
-      blockchain ecosystems. This innovative solution addresses the interoperability 
-      challenges that have long plagued the crypto space, enabling seamless cross-chain 
-      transactions and data sharing.
-      
-      The research demonstrates how Yellow's architecture can reduce transaction costs, 
-      improve efficiency, and create a more connected blockchain ecosystem that benefits 
-      users and developers alike.
+      Yellow introduces an innovative clearing network unifying fragmented
+      blockchain ecosystems. The platform enables seamless interoperability,
+      boosting efficiency and reducing transaction friction across chains.
     `,
+    author: {
+      name: "David Green",
+      role: "Blockchain Researcher",
+      avatar: "https://randomuser.me/api/portraits/men/41.jpg",
+      twitter: "https://twitter.com/",
+      linkedin: "https://linkedin.com/",
+      email: "mailto:david@cryptonews.com",
+    },
   },
   {
     id: 7,
-    title:
-      "Yellow: A Clearing Network Unifying Fragmented Blockchains",
+    title: "Yellow: A Clearing Network Unifying Fragmented Blockchains (Part 2)",
     date: "Oct 22, 2025",
     category: "Research",
     content: `
-      Yellow represents a groundbreaking clearing network designed to unify fragmented 
-      blockchain ecosystems. This innovative solution addresses the interoperability 
-      challenges that have long plagued the crypto space, enabling seamless cross-chain 
-      transactions and data sharing.
-      
-      The research demonstrates how Yellow's architecture can reduce transaction costs, 
-      improve efficiency, and create a more connected blockchain ecosystem that benefits 
-      users and developers alike.
+      This extended analysis delves deeper into Yellow’s architecture and
+      its implications for cross-chain liquidity and decentralized clearing
+      infrastructure worldwide.
     `,
+    author: {
+      name: "David Green",
+      role: "Blockchain Researcher",
+      avatar: "https://randomuser.me/api/portraits/men/41.jpg",
+      twitter: "https://twitter.com/",
+      linkedin: "https://linkedin.com/",
+      email: "mailto:david@cryptonews.com",
+    },
   },
 ];
 
@@ -123,7 +158,7 @@ function NewsDetail() {
 
   if (!newsItem) {
     return (
-      <div className="text-center text-gray-400">
+      <div className="text-center text-gray-400 py-10">
         <h2 className="text-2xl font-semibold">Article Not Found</h2>
         <Link
           to="/"
@@ -135,8 +170,10 @@ function NewsDetail() {
     );
   }
 
+  const { author } = newsItem;
+
   return (
-    <div className="bg-[#0a0a0a] text-white min-h-screen px-6">
+    <div className="bg-[#0a0a0a] text-white min-h-screen px-6 py-10">
       <div className="max-w-4xl mx-auto">
         <Link
           to="/"
@@ -155,6 +192,43 @@ function NewsDetail() {
           <p className="text-gray-300 leading-relaxed whitespace-pre-line">
             {newsItem.content}
           </p>
+
+          {/* Author Info */}
+          <div className="border-t border-gray-800 mt-10 pt-6 flex flex-col sm:flex-row items-center sm:items-start gap-5">
+            <img
+              src={author.avatar}
+              alt={author.name}
+              className="w-20 h-20 rounded-full border-2 border-[#f0ac10] object-cover"
+            />
+            <div className="text-center sm:text-left">
+              <h3 className="text-lg font-semibold">{author.name}</h3>
+              <p className="text-gray-400 text-sm">{author.role}</p>
+              <div className="flex justify-center sm:justify-start gap-4 mt-3">
+                <a
+                  href={author.twitter}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-[#f0ac10] transition"
+                >
+                  <i className="fab fa-twitter"></i>
+                </a>
+                <a
+                  href={author.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-[#f0ac10] transition"
+                >
+                  <i className="fab fa-linkedin"></i>
+                </a>
+                <a
+                  href={author.email}
+                  className="text-gray-400 hover:text-[#f0ac10] transition"
+                >
+                  <i className="fas fa-envelope"></i>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

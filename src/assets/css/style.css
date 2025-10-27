@@ -1,8 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@300;400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-body {
+/* Typography System */
+@layer base {
+  body {
     background-color: #0a0a0a;
     color: white;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  }
+}
+
+@layer components {
+  /* News Headlines */
+  .news-headline {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+  }
+  
+  .news-headline-lg {
+    @apply news-headline text-2xl;
+  }
+  
+  .news-headline-md {
+    @apply news-headline text-lg;
+  }
+  
+  .news-headline-sm {
+    @apply news-headline text-base;
+  }
+
+  /* News Body Text */
+  .news-body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    letter-spacing: 0.01em;
+  }
+  
+  .news-body-lg {
+    @apply news-body text-lg;
+  }
+  
+  .news-body-md {
+    @apply news-body text-base;
+  }
+  
+  .news-body-sm {
+    @apply news-body text-sm;
+  }
+
+  /* Date Styling */
+  .news-date {
+    font-family: 'JetBrains Mono', 'Courier New', monospace;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 1.4;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  
+  .news-date-sm {
+    @apply news-date text-xs;
+  }
+  
+  .news-date-md {
+    @apply news-date text-sm;
+  }
+
+  /* Category Labels */
+  .news-category {
+    font-family: 'JetBrains Mono', 'Courier New', monospace;
+    font-weight: 600;
+    font-size: 0.75rem;
+    line-height: 1.4;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  /* Section Headers */
+  .section-header {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 1.25rem;
+    line-height: 1.3;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  /* Page Titles */
+  .page-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 2.5rem;
+    line-height: 1.1;
+    letter-spacing: -0.03em;
+  }
+
+  /* Card Titles */
+  .card-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    line-height: 1.3;
+    letter-spacing: -0.01em;
+  }
+
+  /* Excerpt Text */
+  .news-excerpt {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+    color: #9CA3AF;
+  }
+
+  /* Link Styling */
+  .news-link {
+    @apply text-[#f0ac10] hover:text-[#d4940a] transition-colors duration-200;
+  }
+
+  /* Hover Effects */
+  .news-hover {
+    @apply hover:text-[#f0ac10] cursor-pointer transition-colors duration-200;
+  }
 }

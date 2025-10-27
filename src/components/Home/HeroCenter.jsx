@@ -12,14 +12,14 @@ function HeroCenter() {
           className="rounded-lg w-full object-cover h-64"
         />
         <Link to="/news/1/aave-dao-proposes-50-million-annual-token-buyback-program">
-          <h2 className="text-2xl font-extrabold mt-4 leading-snug hover:text-[#f0ac10] transition-colors">
+          <h2 className="news-headline-lg mt-4 news-hover">
             Aave DAO proposes $50 million annual token buyback program funded by
             protocol revenue
           </h2>
         </Link>
-        <p className="text-xs text-gray-500 mt-2">
+        <p className="news-date-sm text-gray-500 mt-2">
           Oct 22, 2025, 9:12AM EDT •{" "}
-          <Link to="/category/governance" className="uppercase text-[#f0ac10] hover:text-[#d4940a] transition-colors">
+          <Link to="/category/governance" className="news-category news-link">
             Governance
           </Link>
         </p>
@@ -34,14 +34,14 @@ function HeroCenter() {
         />
         <div>
           <Link to="/news/2/sen-warren-slams-stablecoin-law">
-            <h3 className="text-md font-semibold hover:text-[#f0ac10] cursor-pointer transition-colors">
+            <h3 className="card-title news-hover">
               Sen. Warren slams stablecoin law and urges Treasury to address
               conflict of interest concerns
             </h3>
           </Link>
-          <p className="text-xs text-gray-500 mt-1">
+          <p className="news-date-sm text-gray-500 mt-1">
             Oct 21, 2025, 4:57PM EDT •{" "}
-            <Link to="/category/policy" className="uppercase text-[#f0ac10] hover:text-[#d4940a] transition-colors">
+            <Link to="/category/policy" className="news-category news-link">
               Policy
             </Link>
           </p>
@@ -54,14 +54,14 @@ function HeroCenter() {
         />
         <div>
           <Link to="/news/3/sen-warren-slams-stablecoin-law-2">
-            <h3 className="text-md font-semibold hover:text-[#f0ac10] cursor-pointer transition-colors">
+            <h3 className="card-title news-hover">
               Sen. Warren slams stablecoin law and urges Treasury to address
               conflict of interest concerns
             </h3>
           </Link>
-          <p className="text-xs text-gray-500 mt-1">
+          <p className="news-date-sm text-gray-500 mt-1">
             Oct 21, 2025, 4:57PM EDT •{" "}
-            <Link to="/category/policy" className="uppercase text-[#f0ac10] hover:text-[#d4940a] transition-colors">
+            <Link to="/category/policy" className="news-category news-link">
               Policy
             </Link>
           </p>
@@ -74,14 +74,14 @@ function HeroCenter() {
         />
         <div>
           <Link to="/news/4/sen-warren-slams-stablecoin-law-3">
-            <h3 className="text-md font-semibold hover:text-[#f0ac10] cursor-pointer transition-colors">
+            <h3 className="card-title news-hover">
               Sen. Warren slams stablecoin law and urges Treasury to address
               conflict of interest concerns
             </h3>
           </Link>
-          <p className="text-xs text-gray-500 mt-1">
+          <p className="news-date-sm text-gray-500 mt-1">
             Oct 21, 2025, 4:57PM EDT •{" "}
-            <Link to="/category/policy" className="uppercase text-[#f0ac10] hover:text-[#d4940a] transition-colors">
+            <Link to="/category/policy" className="news-category news-link">
               Policy
             </Link>
           </p>

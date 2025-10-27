@@ -7,6 +7,15 @@ const allNews = [
     title: "Aave DAO proposes $50 million annual token buyback program funded by protocol revenue",
     date: "Oct 22, 2025, 9:12AM EDT",
     category: "Governance",
+    author: {
+      name: "Sarah Mitchell",
+      role: "Crypto Market Analyst",
+      avatar:
+        "https://randomuser.me/api/portraits/women/44.jpg",
+      twitter: "https://twitter.com/",
+      linkedin: "https://linkedin.com/",
+      email: "mailto:sarah.mitchell@cryptonews.com",
+    },
     content: "The Aave DAO has proposed a comprehensive $50 million annual token buyback program that will be funded entirely by protocol revenue.",
     image: "https://www.tbstat.com/cdn-cgi/image/format=webp,q=50,w=500/wp/uploads/2024/08/20240819_Aave_News_2-1200x675.jpg"
   },
@@ -79,6 +88,15 @@ const allNews = [
     title: "Prime broker FalconX to buy 21Shares amid crypto M&A spree: report",
     date: "Oct 22, 2025, 6:20AM EDT",
     category: "Companies",
+    author: {
+      name: "Sarah Mitchell",
+      role: "Crypto Market Analyst",
+      avatar:
+        "https://randomuser.me/api/portraits/women/44.jpg",
+      twitter: "https://twitter.com/",
+      linkedin: "https://linkedin.com/",
+      email: "mailto:sarah.mitchell@cryptonews.com",
+    },
     content: "FalconX has announced its intent to acquire 21Shares in one of the biggest crypto mergers of the year.",
     image: "https://images.unsplash.com/photo-1620301857561-04b4b7a0ebf9?auto=format&fit=crop&w=1200&q=80"
   }

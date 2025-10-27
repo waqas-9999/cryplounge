@@ -29,20 +29,20 @@ const news = [
 function HeroLeft() {
   return (
     <div className="space-y-6 border-r border-gray-800 pr-6">
-      <h2 className="text-xl font-bold tracking-wider text-gray-200">
+      <h2 className="section-header text-gray-200">
         LATEST CRYPTO NEWS
       </h2>
 
       {news.map((item) => (
         <div key={item.id} className="border-b border-gray-800 pb-4">
           <Link to={`/news/${item.id}/${slugify(item.title)}`}>
-            <h3 className="text-lg font-semibold hover:text-[#f0ac10] cursor-pointer">
+            <h3 className="news-headline-md news-hover">
               {item.title}
             </h3>
           </Link>
-          <p className="text-xs text-gray-500 mt-2">
+          <p className="news-date-sm text-gray-500 mt-2">
             {item.date} •{" "}
-            <Link to={`/category/${item.category.toLowerCase().replace(/\s+/g, '-')}`} className="uppercase text-[#f0ac10] hover:text-[#d4940a] transition-colors">
+            <Link to={`/category/${item.category.toLowerCase().replace(/\s+/g, '-')}`} className="news-category news-link">
               {item.category}
             </Link>
           </p>
@@ -51,7 +51,7 @@ function HeroLeft() {
 
       <Link
         to="/community"
-        className="inline-block mt-4 text-sm font-semibold text-[#f0ac10] hover:underline"
+        className="news-link inline-block mt-4 text-sm font-semibold hover:underline"
       >
         SEE MORE LATEST CRYPTO NEWS →
       </Link>
